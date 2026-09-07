@@ -64,5 +64,21 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Adlai Nortye is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/adlai-nortye_stock/
+Adlai Nortye is a global clinical-stage biopharmaceutical company, headquartered in Hangzhou, China with US operations in New Jersey, developing differentiated immuno-oncology and precision-targeted cancer medicines. Its pipeline covers two therapeutic areas: precision RAS pathway targeted therapies — the oral pan-RAS(ON) inhibitor AN9025 and the CEACAM5-targeting antibody-drug conjugate AN4035 built on the company's proprietary RASiCA (RAS Inhibitor Conjugated Antibody) platform — and next-generation PD-1/L1 pathway modulating immunotherapies including AN8025, a multi-functional T-cell and antigen-presenting-cell modulating fusion protein, plus the oral EP4 antagonist AN0025 (palupiprant). The company is listed on Nasdaq under the ticker ANL. Adlai Nortye publishes no developer program, API, SDK or machine-readable contract of any kind.
+
+Adlai Nortye publishes no API, developer portal, SDK or machine-readable contract. Probed 2026-09-07 across `www.adlainortye.com`, `ir.adlainortye.com` and `cn.adlainortye.com`: no OpenAPI, Swagger, GraphQL, AsyncAPI, MCP endpoint, agent card, `apis.json` or `llms.txt`, and every `/.well-known/` path returned 403 or 404. See `well-known/adlai-nortye-well-known.yml` for the recorded probe.
+
+- DomainSecurity: security/adlai-nortye-domain-security.yml
+- Website: https://www.adlainortye.com/
+- About: https://www.adlainortye.com/index.php/about
+- x-DrugPipeline: https://www.adlainortye.com/index.php/products
+- PressReleases: https://www.adlainortye.com/index.php/news
+- Support: https://www.adlainortye.com/index.php/contact
+- TermsOfService: https://www.adlainortye.com/index.php/termOfUse
+- PrivacyPolicy: https://www.adlainortye.com/index.php/privacyPolicy
+- Careers: https://www.adlainortye.com/index.php/recruit
+- Partners: https://www.adlainortye.com/index.php/partner_business
+- LinkedIn: https://www.linkedin.com/company/adlainortye/
+- Twitter: https://x.com/AdlaiNortyeBio
+- x-SecondaryMarket: https://forgeglobal.com/adlai-nortye_stock/
+- LLMsTxt: llms/adlai-nortye-llms.txt

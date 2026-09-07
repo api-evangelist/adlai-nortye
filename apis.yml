@@ -1,7 +1,18 @@
 aid: adlai-nortye
 name: Adlai Nortye
-description: 'Adlai Nortye is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Adlai Nortye is a global clinical-stage biopharmaceutical company, headquartered in
+  Hangzhou, China with US operations in New Jersey, developing differentiated
+  immuno-oncology and precision-targeted cancer medicines. Its pipeline covers two
+  therapeutic areas: precision RAS pathway targeted therapies — the oral pan-RAS(ON)
+  inhibitor AN9025 and the CEACAM5-targeting antibody-drug conjugate AN4035 built on the
+  company's proprietary RASiCA (RAS Inhibitor Conjugated Antibody) platform — and
+  next-generation PD-1/L1 pathway modulating immunotherapies including AN8025, a
+  multi-functional T-cell and antigen-presenting-cell modulating fusion protein, plus the
+  oral EP4 antagonist AN0025 (palupiprant). The company is listed on Nasdaq under the
+  ticker ANL. Adlai Nortye publishes no developer program, API, SDK or machine-readable
+  contract of any kind.
+image: https://www.adlainortye.com/static/web/img/logob_20210415.svg
 url: https://raw.githubusercontent.com/api-evangelist/adlai-nortye/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -10,8 +21,16 @@ x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-09-07'
 modified: '2026-09-07'
+position: Producing
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Life Sciences
+- Healthcare
+- Oncology
+- Clinical Trials
+- Drug Development
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +38,55 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/adlai-nortye-domain-security.yml
 - type: Website
+  url: https://www.adlainortye.com/
+- type: About
+  url: https://www.adlainortye.com/index.php/about
+- type: x-DrugPipeline
+  url: https://www.adlainortye.com/index.php/products
+- type: PressReleases
+  url: https://www.adlainortye.com/index.php/news
+- type: Support
+  url: https://www.adlainortye.com/index.php/contact
+- type: TermsOfService
+  url: https://www.adlainortye.com/index.php/termOfUse
+- type: PrivacyPolicy
+  url: https://www.adlainortye.com/index.php/privacyPolicy
+- type: Careers
+  url: https://www.adlainortye.com/index.php/recruit
+- type: Partners
+  url: https://www.adlainortye.com/index.php/partner_business
+- type: LinkedIn
+  url: https://www.linkedin.com/company/adlainortye/
+- type: Twitter
+  url: https://x.com/AdlaiNortyeBio
+- type: x-SecondaryMarket
   url: https://forgeglobal.com/adlai-nortye_stock/
+- type: LLMsTxt
+  url: llms/adlai-nortye-llms.txt
+x-enrichment:
+  date: '2026-09-07'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Adlai Nortye is a clinical-stage oncology drug developer (Nasdaq: ANL) whose product is
+    a molecule, not software - its corporate site has no developer, docs or API section at
+    all, and every contract probe across www, ir and cn returned 403 or 404.
+  evidence:
+  - url: https://www.adlainortye.com/openapi.json
+    status: 404
+  - url: https://www.adlainortye.com/llms.txt
+    status: 404
+  - url: https://www.adlainortye.com/.well-known/agent-card.json
+    status: 403
+  - url: https://www.adlainortye.com/apis.json
+    status: 404
+  - url: https://ir.adlainortye.com/
+    status: 403
+  checked: '2026-09-07'

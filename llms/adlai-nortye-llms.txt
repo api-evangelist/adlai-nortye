@@ -1,0 +1,40 @@
+# Adlai Nortye
+
+> Adlai Nortye is a global clinical-stage biopharmaceutical company (Nasdaq: ANL) developing
+> differentiated immuno-oncology and precision RAS-pathway targeted cancer medicines. It has
+> no public API, developer program, SDK or machine-readable contract. This file is an API
+> Evangelist-generated profile index, not a document published by Adlai Nortye.
+
+## Provenance
+
+- Generated: 2026-09-07
+- Method: generated (from apis.yml and probes in this repository)
+- Not served by the provider: https://www.adlainortye.com/llms.txt returned HTTP 404 on 2026-09-07
+
+## API surface
+
+There is none. Probed on 2026-09-07 across www.adlainortye.com, ir.adlainortye.com and
+cn.adlainortye.com: no OpenAPI, Swagger, GraphQL, AsyncAPI, MCP, agent card, apis.json,
+llms.txt, or any /.well-known/ discovery document. The apex adlainortye.com does not resolve.
+References to "API" in pharmaceutical directories for this company mean Active Pharmaceutical
+Ingredient, not an application programming interface.
+
+## Company
+
+- [Home](https://www.adlainortye.com/): corporate site
+- [Company Overview](https://www.adlainortye.com/index.php/about): history, mission, global footprint
+- [Pipeline](https://www.adlainortye.com/index.php/products): AN9025 (oral pan-RAS(ON) inhibitor), AN4035 (CEACAM5 ADC on the RASiCA platform), AN8025 (T cell / APC modulating fusion protein), AN0025 / palupiprant (oral EP4 antagonist)
+- [Press releases](https://www.adlainortye.com/index.php/news): company news and media
+- [Business development](https://www.adlainortye.com/index.php/partner_business): partnering and licensing
+- [Contact](https://www.adlainortye.com/index.php/contact): offices in Hangzhou, China and New Jersey, USA
+- [Careers](https://www.adlainortye.com/index.php/recruit): job opportunities
+
+## Legal
+
+- [Terms of Use](https://www.adlainortye.com/index.php/termOfUse)
+- [Privacy Policy](https://www.adlainortye.com/index.php/privacyPolicy)
+
+## Artifacts in this profile
+
+- security/adlai-nortye-domain-security.yml: probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture
+- well-known/adlai-nortye-well-known.yml: recorded absence across all three hosts

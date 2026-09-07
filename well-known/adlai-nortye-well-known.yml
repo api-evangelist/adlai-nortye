@@ -1,0 +1,124 @@
+generated: '2026-09-07'
+method: probed
+source: live HTTPS probes of every host this record knows (adlainortye.com apex does not resolve; www, ir and cn subdomains probed)
+note: >-
+  Nothing was served. The company site (nginx) answers 403 Forbidden with a 548-byte error
+  page for every /.well-known/* path and 404 for /apis.json, /apis.yml, /llms.txt and every
+  OpenAPI candidate. The investor-relations host ir.adlainortye.com is behind Akamai and
+  returns a 403 "Access Denied" edge page for every path including its own root, so nothing
+  there could be read. The Chinese-language host cn.adlainortye.com serves its root but does
+  not resolve most /.well-known/* paths at all. No document was fetched, so NO WellKnown and
+  NO SecurityTxt pointer is emitted — this file records a verified absence, not a presence.
+hit_count: 0
+path_echo_control: passed
+soft_404_control:
+  url: https://www.adlainortye.com/.well-known/adlai-nortye-negative-control-7f3ab91c.json
+  status: 403
+  bytes: 548
+  verdict: not a catch-all; the negative control was refused like every other path
+hosts:
+- host: https://www.adlainortye.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+  - path: /.well-known/openid-configuration
+    status: 403
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+  - path: /.well-known/oauth-protected-resource
+    status: 403
+  - path: /.well-known/api-catalog
+    status: 403
+  - path: /.well-known/ai-plugin.json
+    status: 403
+  - path: /.well-known/aauth-resource.json
+    status: 403
+  - path: /.well-known/apis.json
+    status: 403
+  - path: /.well-known/agent-card.json
+    status: 403
+  - path: /.well-known/agent.json
+    status: 403
+  - path: /apis.json
+    status: 404
+  - path: /apis.yml
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /openapi.json
+    status: 404
+  - path: /swagger.json
+    status: 404
+  - path: /api-docs
+    status: 404
+  - path: /robots.txt
+    status: 404
+- host: https://ir.adlainortye.com
+  note: Akamai edge returns 403 Access Denied for every path, including the site root.
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+  - path: /.well-known/openid-configuration
+    status: 403
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+  - path: /.well-known/oauth-protected-resource
+    status: 403
+  - path: /.well-known/api-catalog
+    status: 403
+  - path: /.well-known/ai-plugin.json
+    status: 403
+  - path: /.well-known/aauth-resource.json
+    status: 403
+  - path: /.well-known/apis.json
+    status: 403
+  - path: /.well-known/agent-card.json
+    status: 403
+  - path: /.well-known/agent.json
+    status: 403
+  - path: /apis.json
+    status: 403
+  - path: /apis.yml
+    status: 403
+  - path: /llms.txt
+    status: 403
+  - path: /openapi.json
+    status: 403
+  - path: /swagger.json
+    status: 403
+  - path: /api-docs
+    status: 403
+- host: https://cn.adlainortye.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+  - path: /.well-known/agent-card.json
+    status: 403
+  - path: /.well-known/agent.json
+    status: 0
+  - path: /.well-known/openid-configuration
+    status: 0
+  - path: /.well-known/oauth-authorization-server
+    status: 0
+  - path: /.well-known/oauth-protected-resource
+    status: 0
+  - path: /.well-known/api-catalog
+    status: 0
+  - path: /.well-known/ai-plugin.json
+    status: 0
+  - path: /.well-known/aauth-resource.json
+    status: 0
+  - path: /.well-known/apis.json
+    status: 0
+  - path: /apis.json
+    status: 404
+  - path: /apis.yml
+    status: 404
+  - path: /llms.txt
+    status: 0
+  - path: /openapi.json
+    status: 0
+  - path: /swagger.json
+    status: 0
+  - path: /api-docs
+    status: 0
