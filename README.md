@@ -66,19 +66,80 @@
 
 Adlai Nortye is a global clinical-stage biopharmaceutical company, headquartered in Hangzhou, China with US operations in New Jersey, developing differentiated immuno-oncology and precision-targeted cancer medicines. Its pipeline covers two therapeutic areas: precision RAS pathway targeted therapies — the oral pan-RAS(ON) inhibitor AN9025 and the CEACAM5-targeting antibody-drug conjugate AN4035 built on the company's proprietary RASiCA (RAS Inhibitor Conjugated Antibody) platform — and next-generation PD-1/L1 pathway modulating immunotherapies including AN8025, a multi-functional T-cell and antigen-presenting-cell modulating fusion protein, plus the oral EP4 antagonist AN0025 (palupiprant). The company is listed on Nasdaq under the ticker ANL. Adlai Nortye publishes no developer program, API, SDK or machine-readable contract of any kind.
 
-Adlai Nortye publishes no API, developer portal, SDK or machine-readable contract. Probed 2026-09-07 across `www.adlainortye.com`, `ir.adlainortye.com` and `cn.adlainortye.com`: no OpenAPI, Swagger, GraphQL, AsyncAPI, MCP endpoint, agent card, `apis.json` or `llms.txt`, and every `/.well-known/` path returned 403 or 404. See `well-known/adlai-nortye-well-known.yml` for the recorded probe.
+**Areas:** Company · Biotechnology · Pharmaceuticals · Life Sciences · Healthcare · Oncology · Clinical Trials · Drug Development
 
-- DomainSecurity: security/adlai-nortye-domain-security.yml
-- Website: https://www.adlainortye.com/
-- About: https://www.adlainortye.com/index.php/about
-- x-DrugPipeline: https://www.adlainortye.com/index.php/products
-- PressReleases: https://www.adlainortye.com/index.php/news
-- Support: https://www.adlainortye.com/index.php/contact
-- TermsOfService: https://www.adlainortye.com/index.php/termOfUse
-- PrivacyPolicy: https://www.adlainortye.com/index.php/privacyPolicy
-- Careers: https://www.adlainortye.com/index.php/recruit
-- Partners: https://www.adlainortye.com/index.php/partner_business
-- LinkedIn: https://www.linkedin.com/company/adlainortye/
-- Twitter: https://x.com/AdlaiNortyeBio
-- x-SecondaryMarket: https://forgeglobal.com/adlai-nortye_stock/
-- LLMsTxt: llms/adlai-nortye-llms.txt
+## Adlai Nortye on APIs.io
+
+Everything profiled for Adlai Nortye is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/adlai-nortye/](https://apis.io/providers/adlai-nortye/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Adlai Nortye Domain Security](https://apis.io/security/adlai-nortye/adlai-nortye-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.adlainortye.com/)
+- [Support](https://www.adlainortye.com/index.php/contact)
+- [Terms of service](https://www.adlainortye.com/index.php/termOfUse)
+- [Privacy policy](https://www.adlainortye.com/index.php/privacyPolicy)
+
+## API Evangelist rating
+
+**Kin Score 10.6** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adlai-nortye/](https://apis.io/providers/adlai-nortye/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Adlai Nortye: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/adlai-nortye/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
